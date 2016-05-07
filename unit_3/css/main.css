@@ -1,0 +1,104 @@
+/* Simple Reset */
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	width: 100%;
+	align-content: center;
+	text-align: center;
+	font-family: helvetica;
+	color: #fff;
+	background-image: url(../images/catface.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #000000;	
+}
+h1 {
+	font-family: helvetica; 
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 100;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	line-height: .5;
+}
+h2 {
+	font-size: 20pt;
+	font-weight: 100;
+	padding: 35px;
+}
+h3 {
+	font-size: 16;
+	margin: 10px;
+	font-weight: 100;
+}
+ul {
+	list-style: none;
+	line-height: 1.7;
+	margin-top: 20px;
+}
+nav a {
+	display: inline-block;
+	width: 300px;
+	padding: 10px;
+	background-color: rgba(0,0,0,.5);
+	color: #ffffff;
+	text-decoration: none;
+	margin-bottom: 35px;
+}
+nav a:hover {
+	display: inline-block;
+	background-color: #ffffff;
+	color: #000000;
+}
+footer {
+	width: 100%;
+	height: 100px;
+	align-content: center;
+	background-color: #ffffff;
+	color: #000000;
+}
+footer a {
+	color: #39858A;
+	text-decoration: none;
+}
+footer a:hover {
+	color: #215F7F;
+	text-decoration: none;
+}
+/* "Absolutely Necessary" Class and IDs */
+.ProjectEntry {
+	display: inline-block;
+	max-width: 200px;
+	height: 200px;
+	background-color: rgba(255,255,255,.7);
+	margin: 5px;
+	text-align: center;
+	color: #000000;
+}
+#logo {
+	width:100px;
+	height: 100px;
+	margin-top: 10px;
+} 
+#slogan {
+	font-size: 18px;
+	font-weight: 200;
+	font-style: italic;
+	line-height: 1;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+#Services {
+	height: 400px;
+	background-color: #ffffff;
+	color: #000000;
+}
+#AboutMe {
+	height: 600px;
+	background-image: url(../images/creativecat.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #000000;
+}
