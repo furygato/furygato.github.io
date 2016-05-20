@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600|Euphoria+Script);
+/* Simple Reset */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	align-content: center;
+	text-align: center;
+	font-family: "Source Sans Pro", helvetica, "sans-serif";
+	font-size: 16px;
+}
+
+h1, h2, h3 {
+	color: #000;
+}
+
+header {
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#logo {
+	width:130px;
+	height: 130px;
+}
+
+.ProjectEntry {
+	display: inline-block;
+	width: 200px;
+	margin: .3em;
+	text-align: center;
+	color: #ffffff;
+}
