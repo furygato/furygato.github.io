@@ -16,6 +16,7 @@ body {
 header {
 	height: 800px;
 	background-image: url(../images/catface.jpg);
+	background-attachment: fixed;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-color: #000000;	
@@ -32,24 +33,22 @@ p {
 	font-size: 1em;
 	padding: .3em;
 	margin: 1em auto;
+	max-width: 600px;
 }
 h1 {
 	text-transform: uppercase;
 	font-size: 3.125em;
 	font-weight: 600;
-	margin-top: .1em;
-	margin-bottom: .3em;
 	line-height: .5em;
 }
 h2 {
 	font-size: 1.875em;
-	padding: .75em;
-	font-weight: 300;
+	font-weight: 400;
+	margin-bottom: 1em;
 }
 h3 {
 	font-size: 1em;
 	font-weight: 200;
-	padding: .75em;
 }
 ul {
 	list-style: none;
@@ -70,15 +69,18 @@ nav a:hover {
 	background-color: #ffffff;
 	color: #000000;
 }
-
+li {
+	font-weight: 300;
+	font-size: 1.5em;
+}
 .ProjectEntry {
 	float: left;
-	width: 25%;
+	width: 24%;
 	color: #ffffff;
 	text-decoration: inherit;
 	text-align: center;
 	background-color: #000;
-	padding: .5em;
+	padding: .5%;
 }
 
 .ProjectEntry:hover {
@@ -116,40 +118,41 @@ nav a:hover {
 }
 #Services {
 	clear: both;
-	padding: 2.8em;
-	background-color: #FFB7CF;
+	padding: 3em;
+	background-color: #ffffff;
 	color: #000000;
 }
 #AboutMe {
 	height: 600px;
-	padding: 2.8em;
+	padding: 3em;
 	background-image: url(../images/creativecat.jpg);
+	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #000000;
 }
 #MyWork {
-	max-width:75em;
+	max-width:90%;
 	margin:auto;
 	background-color: #000000;
-	padding: 2.8em;
+	padding: 3em;
 }
 #left {
-    background-color: #E582A2;
-    outline: 1px black solid;
-    padding: 10px;
-    margin: 5% 0 5% 0;
     float: left;
     width: 48%;
+    text-align: right;
+    margin-bottom: 5%;
 }
 #right {
-    background-color: #E55B88;
-    outline: 1px black solid;
-    padding: 10px;
-   	margin: 5% 0 5% 0;
     float: right;
     width: 48%;
+    text-align: left;
+    margin-bottom: 5%;
 }
+#gif {
+	: circle(60px at center);
+ 	overflow: hidden;
+ }
 .clearfix:after {
     content: ".";
     visibility: hidden;
