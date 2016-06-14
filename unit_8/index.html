@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Creative Cat</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://use.fontawesome.com/4bbf0155ce.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<a href="index.html"><img id="logo"  src="images/cclogo-01.svg" alt="Creative Cat Logo" title="Creative Cat Logo"> </a>
+			<h1>Creative Cat</h1>
+				<div id="slogan">
+					<p>Design With 9 Lives</p>
+				</div>
+			<nav>
+				<a href="#MyWork">My Work</a>
+				<a href="mailto:joshkvincent@gmail.com?subject=Hey%20Josh...">Contact Me</a>
+			</nav>
+		</header>
+		<main>
+			<section id="MyWork" class="clearfix">
+				<h2>My Work</h2>
+				<a href="#" class="ProjectEntry">
+					<img src="images/mdacc.svg" alt="Boot Walk" title="Site Design: MD Anderson Boot Walk">
+				</a>
+				<a href="#" class="ProjectEntry">
+					<img src="images/stc.svg" alt="Save the Children: Responsive Email Design" title="Save the Children: Responsive Email Design">
+				</a>
+				<a href="#" class="ProjectEntry">
+					<img src="images/moody.svg" alt="Site Design: Moody Foundation" title="Site Design: Moody Foundation">
+				</a>
+				<a href="#" class="ProjectEntry">
+					<img src="images/freestore.svg" alt="Responsive Donation Form: Freestore Foodbank" title="Responsive Donation Form: Freestore Foodbank">
+				</a>
+				<br>
+				<a href="#" class="ProjectEntry">
+					<img src="images/bearcubbin.svg" alt="T-Shirt Concept: Bearcubbin'" title="T-Shirt Concept: Bearcubbin'">
+				</a>
+				<a href="#" class="ProjectEntry">
+					<img src="images/hideaway.svg" alt="Hideaway" title="Logo Design: Hideaway BNB">
+				</a>
+				<a href="#" class="ProjectEntry">
+					<img src="images/grst.svg" alt="Grst Logo" title="Logo Design: Grst">
+				</a>
+				<a href="#" class="ProjectEntry">
+					<img src="images/print.jpg" alt="Print Projects" title="Print Projects">
+				</a>
+			</section>
+			<section id="Services" class="clearfix">
+				<h2>Services</h2>
+				<section id="left">
+					<ul>
+						<li>Visual Design</li>
+						<li>User Experience (UX) Strategy</li>
+						<li>Content Strategy &amp; Development</li>
+					</ul>
+				</section>
+				<section id="right">
+					<ul>
+						<li>Branding</li>
+						<li>Web Development</li>
+						<li>Audio &amp; Video Production</li>
+					</ul>
+				</section>
+			</section>
+			<section id="AboutMe">
+				<h2>About Me</h2>
+				<div id="AboutGif">
+					<img src="images/about_me.gif" alt="You're missing out on a GIF right now..." Title="The GIF is strong with this one.">
+				</div>
+				<p>When I'm not banging on a computer, I can be found playing music, drinking beer, or messing around outside. Sometimes I manage to do all three at once.</p>
+				<a class="socialicons" href="https://www.facebook.com/josh.vincent.10" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true" target="_blank"></i></a>
+				<a class="socialicons" href="https://www.instagram.com/gato.peligroso/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a class="socialicons" href="https://www.linkedin.com/in/josh-vincent-76178640" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+				<a class="socialicons" href="mailto:joshkvincent@gmail.com?subject=Hey%20Josh..."><i class="fa fa-envelope-square" aria-hidden="true"></i></a>
+				<p>&copy; 2016 Josh Vincent</p>
+			</section>
+		</main>
+		<footer>
+		</footer>
+		</div>
+		<script>
+			$(function() {
+			  $('a[href*=#]:not([href=#])').click(function() {
+			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			      if (target.length) {
+			        $('html,body').animate({
+			          scrollTop: target.offset().top
+			        }, 1000);
+			        return false;
+			      }
+			    }
+			  });
+			});
+		</script>
+	</body>
+</html>
