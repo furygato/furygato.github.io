@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Poster Art: LORD</title>
+		<link rel="stylesheet" type="text/css" href="css/project.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<script src="https://use.fontawesome.com/4bbf0155ce.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+	<header class="clearfix">
+		<div id="logom">
+			<a href="index.html"><img id="logo" class="clearfix" src="images/cclogo-01.svg" alt="Creative Cat Logo" title="Creative Cat Logo"></a>
+		</div>
+		<nav >
+			<ul>
+				<li><a href="#" id="mobile">&#9776; Menu</a></li>
+				<li><a href="index.html#MyWork">My Work</a></li>
+				<li><a href="mailto:joshkvincent@gmail.com?subject=Hey%20Josh...">Contact</a></li>
+			</ul>
+		</nav> 			
+	</header>
+	<section  id="ProjectContent" class="clearfix">
+		<h2>Poster Art: LORD</h2>
+		<div id="Slides" class="clearfix">
+			<img class="ProjectSlides" src="images/lord1.jpg">
+			<img class="ProjectSlides" src="images/lord2.jpg">
+			<img class="ProjectSlides" src="images/lord3.jpg">
+			<img class="ProjectSlides" src="images/lord4.jpg">
+			<img class="ProjectSlides" src="images/lord5.jpg">
+			<img class="ProjectSlides" src="images/lord6.jpg">
+			<img class="ProjectSlides" src="images/lord7.jpg">
+			<div id="SlideArrows">
+				<a><i class="fa fa-chevron-circle-left" aria-hidden="true" onclick="plusDivs(-1)"></i></a>
+				<a><i class="fa fa-chevron-circle-right" aria-hidden="true" onclick="plusDivs(1)"></i></a>
+			</div>
+		</div>
+		<div id="ProjectDesc">
+			<p>For the several years that they were active, I handled design work for the band LORD, a loud instrumental trio based out of Portland, Oregon. In addition to shirts and album art, producing show fliers was a common exercise. It was also a fun way to integrate interesting images and themes into the band's otherwise minimalistic and at times obscure visual identity.</p>
+			<p>The selection here represents a  mix of photography, illustration, found art, collage, and digital painting.</p>
+			<p>While no announcement was ever issued by the band regarding their continuation, their last performance was in December 2013. They've'remained quiet since, but you can hear them <a href="http://lordmusic.bandcamp.com" target="blank">here</a> and <a href="http://lordlordlord.com" target="blank">here</a>.</p>
+		</div>	
+	</section>
+	<footer>
+		<p>&copy; 2016 Josh Vincent</p>
+	</footer>
+	<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("ProjectSlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+</body>
+</html>
