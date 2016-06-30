@@ -1,0 +1,324 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600|Euphoria+Script);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+body {
+	font-family: "Source Sans Pro", helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	color: rgba(255,255,255,.87);
+	background-color: #000000;	
+}
+header {
+	color: #fff;
+	float: right;
+	width: 100%;
+}
+section {
+	padding: 2.5em 0;
+}
+footer {
+	display: none;
+}
+p {
+	padding: .3em;
+	margin: 1em auto;
+	max-width: 600px;
+}
+p a{
+	color: #BB0906;
+	font-weight: 600;
+	text-decoration: none;
+}
+p a:hover {
+	text-decoration: underline;
+}
+h1 {
+	text-transform: uppercase;
+	font-size: 3.125em;
+	font-weight: 600;
+	line-height: .5em;
+}
+h2 {
+	font-size: 1.875em;
+	font-weight: 400;
+	margin-bottom: 1em;
+}
+h3 {
+	font-size: 1.5em;
+	font-weight: 200;
+}
+nav ul {
+	list-style: none;
+	float: right;
+}
+nav li {
+	float: left;
+}
+nav a {
+	display: inline-block;
+	font-size: .6em;
+	font-weight: 200;
+	padding: 1.5em 2.5em;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+nav a:hover {
+	background-color: #BB0906;
+	color: #fff;
+}
+ul {
+	list-style: none;
+	line-height: 1.7;
+}
+li {
+	font-weight: 300;
+	font-size: 1.5em;
+}
+.ProjectEntry {
+	display: inline-block;
+	width: 24%;
+	color: #ffffff;
+	text-decoration: inherit;
+	text-align: center;
+	background-color: #000;
+	padding: .5%;
+	position: relative;
+	-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+    animation: fadein 1s;
+}
+.socialicons i{
+	display: inline-block;
+	width: 1.5em;
+	padding: .20em;
+	color: #ffffff;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 3em;
+}
+.socialicons i:hover {
+	display: inline-block;
+	color: #BB0906;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+.ProjectTitle {
+	opacity: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 43% 10%;
+    height: 100%;
+    line-height: 1.5em;
+	}
+.ProjectTitle:hover {
+		opacity: 1;
+}
+#logo {
+	width:130px;
+}
+#mobile {
+	display: none;
+}
+#Cat {
+	height: auto;
+	background-image: url(../images/catface.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #000000;	
+	padding: 12% 0 17%;
+}
+#AboutGif {
+	border-radius: 100px;
+}
+#wrapper {
+	width:auto;
+}
+#slogan {
+	font-family: "Euphoria Script";
+	text-align: center;
+	line-height: .1;
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+#Services {
+	clear: both;
+	padding: 3em;
+	background-color: #ffffff;
+	color: #000000;
+}
+#AboutMe {
+	height: 600px;
+	padding: 3em;
+	background-image: url(../images/creativecat.jpg);
+	background-attachment: fixed;
+	background-position: right-top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #000000;
+}
+#MyWork {
+	max-width:98%;
+	margin:auto;
+	background-color: #000000;
+	padding: 3em;
+}
+#left {
+    float: left;
+    width: 48%;
+    text-align: right;
+    margin-bottom: 5%;
+}
+#right {
+    float: right;
+    width: 48%;
+    text-align: left;
+    margin-bottom: 5%;
+}
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@media only screen and (max-width: 853px) {
+	li {
+		font-size: 1.25em;
+	}
+	#left, #right {
+		float: none;
+		display: inline;
+		text-align: center;
+		width: auto;
+		margin-bottom:0;
+	}
+	.socialicons i:active {
+	display: inline-block;
+	color: #BB0906;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+@media only screen and (max-width: 800px) {
+	#Cat {
+		background-position: right;
+		background-size: cover;
+	}
+	#logo {
+		width:110px;
+	}	
+	.ProjectEntry {
+		float: none;
+		display: inline-block;
+		width: 46%;
+		padding: .5em;
+	}
+}
+@media only screen and (max-width: 660px) {
+	h1 {
+		font-size: 2.5em;
+	}
+	nav {
+		width: 100%;
+		text-align: right;;
+	}
+	nav ul {
+		width: 100%;
+		display: block;
+	}
+	nav li {
+		width: 100%;
+		display: block;
+		margin: 0;
+	}
+	nav a {
+		width:100%;
+		display: none;
+		font-weight: 200;
+		padding: 1.5em 2.5em;
+	}
+	nav:hover a{
+		display: block;	
+		background-color: #BB0906;
+	}
+	nav a:active {
+	background-color: #ffffff;
+	color: #BB0906;
+}
+	#mobile {
+		float: right;
+		display: block;
+		position: relative;
+		background-color: none;
+	}
+	#Cat {
+		background-image: url(../images/catfacem.jpg);
+		background-attachment: fixed;
+		height: auto;
+		background-size: cover;
+	}
+	.ProjectEntry {
+		float: none;
+		margin: auto;
+		width:100%;
+		min-width: 200px;
+	}
+	#logo {
+		width: 85px;
+		margin-top: 4%;
+	}
+	#MyWork {
+		width: 100%;
+	}
+	#AboutMe {
+		background-image: url(../images/creativecatm.jpg);
+		background-attachment: fixed;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-color: #000000;	
+	}
+	.socialicons i {
+		font-size: 2.5em;
+	}
+}
+
